@@ -7,16 +7,59 @@
     justify-content: space-around;
     gap: 500px;
     align-items: center;
-    font-size: 24px;
+    background-color: #1f2937;
 }
 
-.header .links {
+.logo {
+    font-size: 24px;
+    color: #F8FAF8;
+    font-weight: bold;
+}
+
+.links {
+    display: flex;
+    gap: 20px;
+}
+
+a {
     font-size: 18px;
+    color: #E5E7EB; 
 }
 
 .hero {
     display: flex;
     justify-content: center;
+    color: #F8FAF8;
+    background-color: #1f2937;
+    padding: 20px;
+}
+
+
+.info-title {
+    font-size: 48px;
+    font-weight: 800;
+    display: flex;
+    flex: 1;
+}
+
+.info-description {
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+    flex: 1; 
+}
+
+.info-img {
+    display: flex;
+    flex-basis: 50%;
+    margin: auto;
+}
+
+button {
+    background-color: #3882f6;
+    color: #E5E7EB;
+    border-radius: 15px;
+    font-size: 18px;
 }
 
 .stack-title {
